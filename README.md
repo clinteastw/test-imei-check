@@ -8,6 +8,7 @@ Stack: Python, FastAPI, aiogram, SQLAlchemy, Alembic
 ```python
 python -m venv venv
 pip install -r requirements.txt
+alembic revision --autogenerate
 alembic upgrade head
 ```
 
